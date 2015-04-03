@@ -1,8 +1,8 @@
 <!doctype html>
 <!--
-<html lang="en" ng-app="main" ng-strict-di>
--->
 <html lang="en" ng-app="main">
+-->
+<html lang="en" ng-app="main" ng-strict-di>
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
     <!-- <script src="http://js.pusher.com/2.2/pusher.js"></script> -->
     
     <script>
-        var DEBUG = true;
+        var DEBUG = false;
         if (DEBUG===false) {
             console.log = function() {};
             console.dir = function() {};
@@ -100,8 +100,10 @@ http://codepen.io/ionic/public-list/
 
     <ion-nav-view layout="column" flex></ion-nav-view>
 
+    <!--
     <script src="cordova.js"></script>
     <script src="phonegap.js"></script>
+    -->
     <script type="text/javascript" src="https://raw.githubusercontent.com/Pushwoosh/phonegap-3-sample-app/master/www/js/PushwooshAndroid.js"></script>
     <script type="text/javascript" src="https://raw.githubusercontent.com/Pushwoosh/phonegap-3-sample-app/master/www/js/PushwooshiOS.js"></script>
     <script type="text/javascript" src="https://raw.githubusercontent.com/Pushwoosh/phonegap-3-sample-app/master/www/js/index.js"></script>
@@ -113,7 +115,10 @@ http://codepen.io/ionic/public-list/
         // moment.locale('de');
         // alert(moment(1316116057189).fromNow());
     </script>
+    <!--
     <script src="/angular/i18n/angular-locale_de.js"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.2.15/angular-locale_de.js"></script>
 
     <style>
         a, .no_underline {

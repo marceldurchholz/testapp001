@@ -5,10 +5,10 @@
         id        = "com.digitalverve.APPinaut"
         version   = "1.2.0">
 
-    <name>20040 - Mobile Training and Infotainment</name>
+    <name>IONIC Chat App</name>
 
     <description>
-        Mit der App 20040, einer Mobile Learning App, wird Wissensmaterial multimedial und in Form von Übungsaufgaben zu unterschiedlichsten Bildungsthemen bereitgestellt. Der Zugang zur App 20040 und der stetig wachsenden mobilen Mediathek, bestehend aus Lernsets und Videos, ist kostenlos. Die Inhalte können von den wissensdurstige Nutzern teilweise kostenpflichtig aber auch kostenlos geladen werden. Das Tablet und das Smartphone eignen sich ideal für das mobile Lernen zwischendurch. Laden Sie die App 20040 und bilden Sie sich weiter - wann und wo Sie wollen.
+        Testapp mit Angular, RequireJS and IONIC Framework
     </description>
 
     <author href="http://www.digitalverve.de" email="info@digitalverve.de">
@@ -16,8 +16,9 @@
     </author>
 
     <content src="index.html"/>
-    
-    <preference name="phonegap-version" value="3.6.3"/>
+
+    <preference name="phonegap-version" value="3.7.0"/>
+
     <preference name="orientation" value="default"/>
     <preference name="target-device" value="universal"/>
     <preference name="fullscreen" value="true"/>
